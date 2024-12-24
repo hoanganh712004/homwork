@@ -1,0 +1,65 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Dec 20, 2024, 9:51:50 AM
+    Author     : ADMIN
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-height: 100vh;
+    background: url(images/html_table.jpg) center / cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    background: linear-gradient(to bottom, #612674, #aa3269);
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent;
+    text-align: center; 
+}
+
+.div1 {
+    width: 80vw;
+    height: 90vh;
+    background-color: #fff5;
+}
+
+.div1 table{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    border: 1px solid  #fff5;
+    
+}
+
+.div1 table td {
+    padding: 30px;            
+    border: 1px solid #6454b7;           
+}
+
+.caculate{
+    margin-top: 10px;
+    margin-left: 580px;
+    background: linear-gradient(to bottom, #622774, #912c6c);
+    padding: 10px;
+    border: 1px solid #632875;
+    border-radius: 10px;
+}
+
+p{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 30px;
+    background: linear-gradient(#98f67b,#78c361);
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent;
+}
